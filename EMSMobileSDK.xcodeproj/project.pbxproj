@@ -178,7 +178,6 @@
 				7E4A78A81E64B3E200CE6302 /* Sources */,
 				7E4A78A91E64B3E200CE6302 /* Frameworks */,
 				7E4A78AA1E64B3E200CE6302 /* Resources */,
-				076CE7F4301FCB5AC9E80D3B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,24 +249,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		076CE7F4301FCB5AC9E80D3B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EMSMobileSDKTests/Pods-EMSMobileSDKTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EMSMobileSDKTests/Pods-EMSMobileSDKTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		123B2D1C6381EC294E8AC839 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
