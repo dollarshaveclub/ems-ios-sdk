@@ -15,7 +15,7 @@ target 'EMSMobileSDK' do
 
   target 'EMSMobileSDKTests' do
     inherit! :search_paths
-    # Pods for testing
+    pod 'Alamofire', '4.8.2'
   end
 
 end
